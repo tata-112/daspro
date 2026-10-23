@@ -20,7 +20,6 @@ public class tugas2_29 {
                 System.out.println("Silahkan input ulang!");
                 continue;
             }
-
             if (jenis == 1 || jenis ==2) {
                 System.out.print("Masukkan Durasi: ");
                 durasi= sc.nextInt();

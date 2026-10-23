@@ -28,7 +28,6 @@ public class siakadFor29 {
             } else {
                 jmlTidakLulus++;
             }
-
             
         }
         System.out.println("Nilai tertinggi: "+tertinggi);

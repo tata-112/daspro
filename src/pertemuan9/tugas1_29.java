@@ -23,17 +23,15 @@ public class tugas1_29 {
         }
 
         penjualanTiket = hargaTiket*jmlBeliTiket;
-
-        if (jmlBeliTiket > 5 && jmlBeliTiket < 9) {
+        if (jmlBeliTiket > 5 && jmlBeliTiket <= 9) {
             penjualanTiket -= (penjualanTiket*diskon1);
-        } else if(jmlBeliTiket>9) {
+        } else if(jmlBeliTiket > 9) {
             penjualanTiket -= (penjualanTiket*diskon2);
         }
 
         totalPenjualan += penjualanTiket;
         totalTiket += jmlBeliTiket;
         System.out.println("Total tiket 1 hari\t: "+ totalTiket);
-        
         System.out.println("Total penjualan 1 hari\t: Rp "+ totalPenjualan);
 
     } while (true);
