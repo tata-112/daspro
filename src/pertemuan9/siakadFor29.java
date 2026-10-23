@@ -23,10 +23,19 @@ public class siakadFor29 {
                 terendah = nilai;
             }
             
+            if (nilai > batasKelulusan) {
+                jmlLulus++;
+            } else {
+                jmlTidakLulus++;
+            }
+
             
         }
         System.out.println("Nilai tertinggi: "+tertinggi);
         System.out.println("Nilai terendah: "+terendah);
+        System.out.println("Jumlah Mahasiswa Lulus: "+jmlLulus);
+        System.out.println("Jumlah Mahasiwa Tidak lulus: "+jmlTidakLulus);
+
         
     }
 }
