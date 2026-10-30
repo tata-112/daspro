@@ -14,8 +14,10 @@ public class star29 {
         System.out.print("Masukkan nilai n : ");
         int n = sc.nextInt();
 
-        for (int i = 0; i < n ; i++) {
-            System.out.print("*");
+        for (int i = 2; i < n ; i++) {
+            if (i%2 == 1) {
+                 System.out.print(i+" ");
+            }
         }
         System.out.println();
         sc.close();
