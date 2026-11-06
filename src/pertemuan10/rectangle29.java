@@ -17,7 +17,7 @@ public class rectangle29 {
 
         for (int i = 1; i <= baris; i++) {  //baris
             for (int j = 1; j <= kolom; j++) {  //kolom
-                System.out.print("*");    
+                System.out.print("#");    
             }
             System.out.println();  //untuk pindah baris ketika sudah 1 kolom
         }
