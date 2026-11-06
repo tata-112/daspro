@@ -11,14 +11,26 @@ public class triangle29 {
         int n = sc.nextInt();
        
         int i = 1;
-        while (i <= n) {
+        // while (i <= n) {
             int j = 1;
-            while (j <= i) {
+        //     while (j <= i) {
+        //         System.out.print("*");
+        //         j++;
+        //     }
+        //     System.out.println();
+        //     i++;
+        // }
+
+        i=n;
+        while (i > 0) {
+            j = 0;
+            while (j < i) {
                 System.out.print("*");
                 j++;
             }
+            
             System.out.println();
-            i++;
+            i--;
         }
         sc.close();
 
