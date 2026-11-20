@@ -6,11 +6,7 @@ import java.util.Arrays;
 Percobaan 1 = 29 ; 29+8=37 ; −(1+(29 mod 7))=-2 ; 20+(29 mod 15)=34  */
 public class ArrayBilangan29 {
     public static void main(String[] args) {
-        int bil[] = new int[4];
-        bil[0] = 5.0;
-        bil[1] = 12867;
-        bil[2] = 7.5;
-        bil[3] = 2000000;
+        int bil[] = {29, 37, -2, 34};
 
         for (int i = 0; i < bil.length; i++) {
             System.out.println("Bil ["+i+"] = "+bil[i]);
