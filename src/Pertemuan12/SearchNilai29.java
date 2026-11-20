@@ -30,7 +30,7 @@ public class SearchNilai29 {
             }
         }
         if (!ditemukan) {
-            System.out.println("Nilai "+key+" tidak ditemukan");
+            System.out.println("Nilai "+key+" yang dicari tidak ditemukan");
         }
     }
 }
