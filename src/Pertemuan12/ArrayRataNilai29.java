@@ -7,7 +7,8 @@ public class ArrayRataNilai29 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int []nilaiMhs = new int[10];
+        System.out.print("Jumlah Mahasiswa : ");
+        int []nilaiMhs = new int[sc.nextInt()];
         int total=0;
         double rata2=0;
         int lulus=0;
