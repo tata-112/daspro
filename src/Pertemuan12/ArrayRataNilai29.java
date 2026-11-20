@@ -40,16 +40,16 @@ public class ArrayRataNilai29 {
             if (nilaiMhs[i]<terendah) {
                 terendah=nilaiMhs[i];
             }
-        // if (nilaiMhs[i] > 70) {
-        //     lulus++;
-        // }else{
-        //     tkdLulus++;
-        // }
+        if (nilaiMhs[i] > 70) {
+            lulus++;
+        }else{
+            tkdLulus++;
+        }
             }
             System.out.println("Nilai tertinggi : "+tertinggi);
             System.out.println("Nilai terendah : "+terendah);
             System.out.println("Predikat kelas : "+status);
-            // System.out.println("Jumlah lulus : "+lulus);
-            // System.out.println("Jumlah tidak lulus : "+tkdLulus);
+            System.out.println("Jumlah lulus : "+lulus);
+            System.out.println("Jumlah tidak lulus : "+tkdLulus);
         }
 }
