@@ -13,12 +13,12 @@ public class ArrayNilai29 {
             nilaiAkhir[i] = sc.nextInt();
         }
 
-        // String status="";
+        String status="";
         for (int i = 0; i < nilaiAkhir.length; i++) {
-            String status=(nilaiAkhir[i] > 70) ? "Lulus" : "Tidak lulus";
-            // if (nilaiAkhir[i] > 70) {
-            //     status = "LULUS";
-            // }
+            // String status=(nilaiAkhir[i] > 70) ? "Lulus" : "Tidak lulus";
+            if (nilaiAkhir[i] > 70) {
+                status = "LULUS";
+            }
             System.out.println("Mahasiswa ke-"+(i+1)+": "+nilaiAkhir[i]+"( "+status+" )");
         }
     }
