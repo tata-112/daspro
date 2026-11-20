@@ -44,7 +44,7 @@ public class ArrayRataNilai29 {
         //     lulus++;
         // }else{
         //     tkdLulus++;
-        }
+        // }
             }
             System.out.println("Nilai tertinggi : "+tertinggi);
             System.out.println("Nilai terendah : "+terendah);
